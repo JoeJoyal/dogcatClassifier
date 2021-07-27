@@ -35,5 +35,5 @@ def predictRoute():
 clApp = ClientApp()
 port = int(os.getenv("PORT"))
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=port)
+    #app.run(host='0.0.0.0', port=port)
     application.run(debug=True)
